@@ -1,0 +1,29 @@
+/* Підключення RESET, ще варіант  */
+/* @import url("reset.css"); */
+/* ==================== */
+/* №0 Селектор «зірочка» */
+*{
+   color: red;
+}
+/* №1 Селетор Тегу */
+p{
+   color: green;
+}
+
+h2{
+   color: darkcyan;
+}
+/* №2 ОСНОВНИЙ!!  Селетор класу */
+/* приклади іменування класів: title, link, row/column, block/box, list/items/item  */
+.text {
+   color: rgb(146, 14, 113);
+}
+
+/* №3 Селектор ID це один єдиний об'єкт */
+
+/* №4 Селектор атрибутів */
+/* [class*="tl"]{} */
+[title*="посилання"]{
+   color: blueviolet;
+   /* text-decoration: underline; */
+}
